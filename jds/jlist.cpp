@@ -73,6 +73,39 @@ namespace jds {
 	}
 
 	template<typename T>
+	void jlist<T>::remove(jiterator<T>* it)
+	{
+		if (!this->empty())
+		{
+			jiterator<T>* it_check = this->head;
+			while (it_check)
+			{
+				if (it == it_check) 
+				{
+					if (it == this->head)
+					{
+						this->pop_front();
+						return;
+					}
+
+					if (it == this->tail)
+					{
+						this->pop_back();
+						return;
+					}
+					
+					jiterator<T>* it_prev = it->prev();
+					jiterator<T>* it_next = it->next();
+					it_prev->next() = it_next;
+					it_next->prev() = it_prev;
+					return;
+				}
+				it_check++;
+			}
+		}
+	}
+
+	template<typename T>
 	void jlist<T>::insert(int pos, T element)
 	{
 		if (pos == 0)

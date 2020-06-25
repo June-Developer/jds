@@ -70,6 +70,13 @@ namespace jds {
 		void clear();
 
 		/*
+			@des: remove a node out of the list
+			@in:
+			@return:
+		*/
+		void remove(jiterator<T>* it);
+
+		/*
 			@des: insert a node to an expected position
 			@in:
 				pos: possition
