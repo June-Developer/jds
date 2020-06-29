@@ -1,6 +1,7 @@
 #include "jmap.h"
 
-namespace jds {
+namespace jds 
+{
 
 	template<typename K, typename V>
 	jmap<K, V>::jmap()

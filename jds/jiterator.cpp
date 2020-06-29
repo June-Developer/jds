@@ -3,7 +3,8 @@
 
 using namespace std;
 
-namespace jds {
+namespace jds 
+{
 	template<typename T>
 	jiterator<T>::jiterator()
 	{

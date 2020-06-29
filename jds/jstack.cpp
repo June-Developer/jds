@@ -1,6 +1,7 @@
 #include "jstack.h"
 
-namespace jds {
+namespace jds 
+{
 
 	template<typename T>
 	jstack<T>::jstack()

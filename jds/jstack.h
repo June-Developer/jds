@@ -4,7 +4,8 @@
 
 #include "jlist.h"
 
-namespace jds {
+namespace jds 
+{
 
 	template<typename T>
 	class jstack : public jlist<T>

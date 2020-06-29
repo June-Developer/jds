@@ -1,7 +1,8 @@
 #ifndef JDS_ITERATOR_H_
 #define JDS_ITERATOR_H_
 
-namespace jds {
+namespace jds
+{
 	template<typename T>
 	class jiterator
 	{

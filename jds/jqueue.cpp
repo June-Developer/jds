@@ -1,6 +1,7 @@
 #include "jqueue.h"
 
-namespace jds {
+namespace jds 
+{
 
 	template<typename T>
 	jqueue<T>::jqueue()

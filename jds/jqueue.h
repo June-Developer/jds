@@ -3,7 +3,8 @@
 
 #include "jlist.h"
 
-namespace jds {
+namespace jds 
+{
 
 	template<typename T>
 	class jqueue : public jlist<T>

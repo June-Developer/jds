@@ -3,8 +3,8 @@
 
 #include "jlist.h"
 
-namespace jds {
-
+namespace jds 
+{
 	template<typename K, typename V>
 	struct jmap_entry
 	{

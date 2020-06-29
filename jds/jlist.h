@@ -3,7 +3,8 @@
 
 #include "jiterator.h"
 
-namespace jds {
+namespace jds 
+{
 
 	template <typename T>
 	class jlist : public jiterator<T>
